@@ -1,0 +1,9 @@
+# Your data: colleague names and message content. Keep it local.
+loops.json
+doc_tables.md
+sweeps/
+prep/
+
+__pycache__/
+.DS_Store
+.claude/

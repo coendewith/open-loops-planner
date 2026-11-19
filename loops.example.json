@@ -1,0 +1,42 @@
+{
+ "meta": {
+  "swept_at": "2026-11-01",
+  "previous_sweep": "2026-11-01",
+  "doc": {"url": "", "project": "", "body": "", "status_enum": "", "rev": 0}
+ },
+ "projects": {
+  "example": "Example project",
+  "ops": "Admin",
+  "other": "Other"
+ },
+ "items": [
+  {
+   "id": "example-review-deck",
+   "status": "open",
+   "type": "action",
+   "project": "example",
+   "title": "Example: review the draft deck before Friday",
+   "detail": "What the loop is, what was asked, and what is already done. Delete this example at setup.",
+   "due": "2026-11-06",
+   "since": "2026-11-01",
+   "who": "A colleague",
+   "source": "Gmail thread \"Draft deck\" 2026-11-01"
+  },
+  {
+   "id": "example-reply-partner",
+   "status": "open",
+   "type": "reply",
+   "project": "example",
+   "title": "Example: answer a partner's question (draft ready under Send)",
+   "detail": "A loop that closes once its drafted message is sent. Delete this example at setup.",
+   "due": null,
+   "since": "2026-11-01",
+   "who": "A partner",
+   "source": "Gmail thread \"Question\" 2026-11-01",
+   "drafts": ["gmail:r1234567890"]
+  }
+ ],
+ "waiting": [
+  {"who": "A colleague", "what": "The numbers they promised for the report", "since": "2026-11-01"}
+ ]
+}
