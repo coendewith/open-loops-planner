@@ -57,6 +57,8 @@ content as your final reply:
     - people: <names>
     - status: open | closed | changed | unclear
     - evidence: <source, date, stable reference: thread id / meeting id / permalink / file URL>
+    - link: <one URL to open the source: meeting note, Gmail thread, Slack permalink or Drive file>
+    - effort: <{{NAME}}'s own time in minutes, realistic>
     - detail: <2-5 sentences of substance: the ask, numbers, what was already done>
     ## Closed since {SINCE} (one line each with evidence)
     ## Coverage notes (what you searched, counts, what you could not access)
@@ -89,6 +91,8 @@ notes, get transcript. Never write notes or folders.
    question and number.
 3. Other meetings: notes, plus the transcript where notes are thin or decisions were taken.
 4. Only name an owner when the transcript makes it clear.
+5. Mine every task that is {{NAME}}'s: what they said they would do, actions they accepted,
+   deliverables and deadlines, decisions, follow-ups they promised. Give each its note link.
 
 ## Source: Slack
 
